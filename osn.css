@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 40px 0;
+    color: #444444;
+    background: #ebebeb;
+  }
+  
+  h2 {
+    font: normal 54px Georgia;
+    letter-spacing: -3px;
+    color: #000000;
+  }
+  
+  h3 {
+    font-weight: normal;
+    color: #000000;
+  }
+  
+  p {
+    padding: 0.75em 0;
+    line-height: 2em;
+    text-align: justify;
+  }
+  
+  p.subtitle {
+    float: right;
+    padding: 0 30px 0 0;
+    font: 20px/120px Georgia, Times, serif;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    color: #999999;
+  }
+  
+  a {
+    color: #d28deb;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+  
+  header {
+    height: 120px;
+  }
+  
+  header h2 {
+    float: left;
+    line-height: 120px;
+    padding-left: 30px;
+  }
+  
+  header h2 a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  nav {
+    clear: both;
+    margin-bottom: 60px;
+    background: #d28deb;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 76px;
+    text-transform: lowercase;
+    transition: background 0.2s;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0 40px;
+    text-align: center;
+    color: #5e2872;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    color: #5e2872;
+    background-color: #ffff;
+  }
+  
+  nav ul li.active a:hover {
+    color: #5e2872;
+    background-color: #ffff;
+  }
+  
+  .sidebar {
+    float: left;
+    width: 270px;
+    padding: 0 0 20px 30px;
+  }
+  
+  .sidebar h3 {
+    font: normal 1.75em Georgia, Times, serif;
+    letter-spacing: -1px;
+  }
+  
+  .sidebar .boxtxt {
+    padding: 0.25em 0 3.25em 0;
+  }
+  
+  .sidebar p {
+    text-align: left;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 1em 0 4em 0;
+  }
+  
+  .sidebar ul li {
+    padding-left: 16px;
+    line-height: 3em;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  
+  .content {
+    float: right;
+    width: 570px;
+    padding: 0 30px 10px 0;
+  }
+  
+  .content .post {
+    padding: 0 0 4em 0;
+  }
+  
+  .content h3 {
+    font: normal 3em Georgia, Times, serif;
+    letter-spacing: -2px;
+  }
+  
+  .content h3 a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  p.postmeta {
+    color: #888888;
+  }
+  
+  .content .entry {
+    padding: 0.75em 0 0 0;
+  }
+  
+  p.readmore {
+    padding-right: 2em;
+    text-align: right;
+  }
+  
+  p.readmore a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #e9e9e9;
+  }
+  
+  p.readmore a:hover {
+    background: #fcf3e6;
+  }
+  
+  footer {
+    clear: both;
+    height: 1%;
+    padding: 2em 30px;
+    border-top: 1px solid #e9e9e9;
+  }
+  
+  footer p {
+    text-align: center;
+  }
